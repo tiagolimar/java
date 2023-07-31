@@ -19,6 +19,9 @@ public class OiMundo {
             System.out.println(msg_for);
         }
 
+        list.remove("Item 01");
+        list.remove(1);
 
+        System.out.println(String.format("Agora a lista está assim: %s\n",list));
     }
 }
